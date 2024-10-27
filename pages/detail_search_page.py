@@ -153,6 +153,6 @@ class DetailSearchPage(Base):
         self.choosing_edge_notification_ddm()
         # self.screenshot()
         # self.get_scroll(600)
-        time.sleep(5000)
+        time.sleep(5)
         self.click_button_search()
         time.sleep(3)
